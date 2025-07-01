@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GlowBeauty Salon</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="imagelogo.jpg" alt="GlowBeauty Logo" class="logo">
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="scroll-container">
+    <section id="home" class="scroll-item">
+      <h1>Welcome to GlowBeauty Salon</h1>
+      <p>Your destination for beauty, wellness, and confidence.</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </section>
+
+    <section id="about" class="scroll-item">
+      <h2>About Us</h2>
+      <p>We specialize in beauty treatments with a personal touch—expert stylists, serene ambiance, modern wellness techniques.</p>
+      <img src="interior.jpg" alt="Salon Interior">
+    </section>
+
+    <section id="services" class="scroll-item">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <img src="hairstyleimage.jpg" alt="Hair Styling">
+          <h3>Hair Styling</h3>
+          <p>Cutting, styling & coloring by expert stylists</p>
+        </div>
+        <div class="service">
+          <img src="Facial.jpg" alt="Facial Treatment">
+          <h3>Facials</h3>
+          <p>Deep cleansing, anti‑aging & hydration facials</p>
+        </div>
+        <div class="service">
+          <img src="menipedi.jpg" alt="Manicure Pedicure">
+          <h3>Mani/Pedi</h3>
+          <p>Classic, gel, acrylic, spa mani/pedi</p>
+        </div>
+        <div class="service">
+          <img src="makeup.jpg" alt="Makeup Services">
+          <h3>Makeup</h3>
+          <p>Bridal, party, event & editorial makeup</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="scroll-item">
+      <h2>Get in Touch</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Your message..." rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+        <div id="form-status"></div>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 GlowBeauty Salon</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+
